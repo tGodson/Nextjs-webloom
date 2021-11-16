@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #E5E5E5;
 }
 
 a {
@@ -13,4 +14,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+code {
+  font-family: "Inter",source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p, span {
+  font-family: Inter;
+  font-style: normal;
+}
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1F2127;
+}
+span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 157.2%;
+
+  color: rgba(31, 33, 39, 0.5);
+
+}
+span .time-left {
+  color: #FF6D39;
 }

@@ -3,7 +3,7 @@ import Layout from '../../components/layout/layout'
 
 export default function Team() {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>Team</title>
       </Head>

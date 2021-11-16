@@ -3,7 +3,7 @@ import Layout from '../../components/layout/layout'
 
 export default function Task() {
   return (
-    <Layout>
+    <Layout title={"Task"}>
       <Head>
         <title>My Tasks</title>
       </Head>
